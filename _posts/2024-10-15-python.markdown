@@ -1,0 +1,117 @@
+---
+layout: post
+title: "Python: Um Estudo de Caso para processamento da mídia imagem"
+date: 2024-10-15 17:00:00 -0000
+categories: python1 visaocomputacional
+---
+
+## Introdução
+
+Neste post, vamos detalhar os passos executados, este estudo de caso aborda um problema específico e como ele foi resolvido utilizando Python.
+
+## Descrição do Problema
+
+O objetivo deste trabalho é analisar os métodos empregados em etapas de processamento da mídia imagem. Vamos analisar as estratégias empregadas na etapa de segmentação e extração de características das imagens. Será investigado o método mais robusto para a etapa de segmentação baseado em segmentação por similaridade. Em seguida, explorado um algoritmo de extração de características baseado em propriedades de textura. As implementações devem ocorrer em ambiente Google CoLab com a linguagem de programação Python.
+
+
+**Dataset**
+
+O dataset que iremos empregar neste estudo foi proposto por Ghaderzadeh, M, Aria, M, Hosseini, A, Asadi, F, Bashash, D, Abolghasemi, H. A fast and efficient CNN model for B-ALL diagnosis and its subtypes classification using peripheral blood smear images. Int J Intell Syst. 2022; 37: 5113- 5133. doi:10.1002/int.22753.
+
+As imagens desse conjunto de dados foram preparadas no laboratório de medula óssea do Hospital Taleqani (Teerã). Esse conjunto de dados consiste em 3.256 imagens de manchas de sangue periférico (PBS) de 89 pacientes com suspeita de leucemia linfoblástica aguda (LLA), cujas amostras de sangue foram preparadas e coradas por uma equipe de laboratório. Esse conjunto de dados foi dividido em duas classes: benigna e maligna. A primeira compreende hematogônias que se assemelham muito aos casos de LLA, entretanto, essa célula precursora hematopoiética é benigna, não requer quimioterapia. O grupo de LLA com três subtipos de linfoblastos malignos: LLA pré-B inicial, pré-B e pró-B. Todas as imagens foram obtidas com uma câmera Zeiss em um microscópio com ampliação de 100 vezes e salvas como arquivos JPG. Um especialista que utilizou a ferramenta de citometria de fluxo fez a marcação do padrão ouro dos tipos e subtipos dessas células.
+
+O dataset esta disponível no link: https://www.kaggle.com/datasets/mehradaria/leukemia/data.
+
+## Passos Executados
+
+### 1. Importação das Bibliotecas Necessárias
+
+Primeiro, importamos as bibliotecas necessárias para a execução do código:
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+### 2. Carregando Dados
+Carregamos os dados a partir de um arquivo CSV:
+
+```python
+data = pd.read_csv('dados.csv')
+```
+
+### 3. Análise Exploratória dos Dados
+Realizamos uma análise exploratória para entender melhor os dados:
+
+```python
+print(data.head())
+print(data.describe())
+```
+
+### 4. Limpeza dos Dados
+Limpamos os dados removendo valores nulos e duplicados:
+
+```python
+data = data.dropna()
+data = data.drop_duplicates()
+```
+
+### 5. Visualização dos Dados
+Criamos gráficos para visualizar os dados:
+
+```python
+plt.figure(figsize=(10, 6))
+plt.hist(data['coluna_interessante'])
+plt.title('Distribuição da Coluna Interessante')
+plt.xlabel('Valores')
+plt.ylabel('Frequência')
+plt.show()
+```
+
+### 6. Modelagem dos Dados
+Aplicamos um modelo de machine learning para prever [descreva o que foi previsto]:
+
+```python
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+
+X = data[['coluna1', 'coluna2']]
+y = data['coluna_alvo']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+predictions = model.predict(X_test)
+```
+
+### 7. Avaliação do Modelo
+Avaliamos a performance do modelo utilizando métricas apropriadas:
+
+```python
+from sklearn.metrics import mean_squared_error
+
+mse = mean_squared_error(y_test, predictions)
+print(f'Mean Squared Error: {mse}')
+```
+
+## Conclusão
+Neste estudo de caso, abordamos um problema específico e mostramos como ele foi resolvido utilizando Python. Desde a importação das bibliotecas até a avaliação do modelo, cada passo foi detalhado para fornecer uma compreensão clara do processo.
+
+Esperamos que este post tenha sido útil e que você tenha aprendido algo novo sobre como resolver problemas com Python.
+
+## Considerações Finais
+
+- Certifique-se de adaptar o conteúdo do post de acordo com os detalhes específicos do seu arquivo `.ipynb`.
+- Inclua gráficos e tabelas gerados durante a execução do notebook para enriquecer o post.
+- Revise o texto para garantir clareza e precisão.
+
+Se precisar de mais alguma coisa, estou à disposição!### Considerações Finais
+
+- Certifique-se de adaptar o conteúdo do post de acordo com os detalhes específicos do seu arquivo `.ipynb`.
+- Inclua gráficos e tabelas gerados durante a execução do notebook para enriquecer o post.
+- Revise o texto para garantir clareza e precisão.
+
+Se precisar de mais alguma coisa, estou à disposição!

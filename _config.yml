@@ -1,0 +1,42 @@
+# Informações básicas do site
+title: "Jean Carlo Alves Ferreira"
+description: "Analista de Sistemas Sênior | Especialista em Cloud Azure, Arquitetura de Dados e Otimização de Sistemas"
+baseurl: "" # Para GitHub Pages, deixe isso vazio.
+url: "https://jeanferreiraufu.github.io" # Atualize com o URL do seu site no GitHub Pages.
+
+# SEO configuration
+seo:
+  title: "Jean Carlo | Analista de Sistemas Sênior"
+  description: "Especialista em desenvolvimento de software, cloud computing e otimização de sistemas no Banco Bradesco. Certificado em Azure, Scrum Master e PMP."
+  author: "Jean Carlo Alves Ferreira"
+  twitter:
+    username: "jeanalvesferreira"
+  github:
+    url: "https://github.com/jeanferreiraufu"
+  linkedin:
+    url: "https://www.linkedin.com/in/jean-ferrreira-udi"
+  lang: "pt-BR"
+  email: "jeanalves.ferreira@ufu.br"
+
+    
+# Tema
+theme: minima
+
+# Customizations
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Links de navegação
+nav_links:
+  home: /
+  about: /about/
+  experience: /experience
+  projects: /projects
+  certifications: /certifications
+  contact: /contact
+
+# Plugins (se necessário)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
