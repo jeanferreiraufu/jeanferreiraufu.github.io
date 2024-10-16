@@ -6,14 +6,14 @@ permalink: /about/
 
 # Jean Carlo Alves Ferreira
 
-Sou **Analista de Sistemas Sênior** com mais de 15 anos de experiência em projetos de desenvolvimento de software e liderança técnica em iniciativas estratégicas de grande escala. Minha atuação inclui projetos de transformação digital, otimização de sistemas, e arquiteturas em nuvem para grandes organizações, como o Banco Bradesco.
+Sou **Analista de Sistemas Sênior** com mais de 15 anos de experiência em projetos de desenvolvimento de software e liderança técnica em iniciativas estratégicas de grande escala. Minha atuação inclui projetos de transformação digital, otimização de sistemas, e arquiteturas em nuvem para grandes organizações.
 
 ## Experiência Profissional
 
-Atualmente, lidero o desenvolvimento de sistemas para projetos estratégicos no **Banco Bradesco**, com foco em soluções escaláveis e de alto desempenho utilizando **Azure Cloud**. Ao longo da minha carreira, implementei arquiteturas de dados eficientes, políticas de governança robustas, e padrões de desenvolvimento como **Clean Architecture** e **Arquitetura Hexagonal**.
+Atualmente, lidero o desenvolvimento de sistemas para projetos estratégicos no **Organização na área de finanças**, com foco em soluções escaláveis e de alto desempenho utilizando **Azure Cloud**. Ao longo da minha carreira, implementei arquiteturas de dados eficientes, políticas de governança robustas, e padrões de desenvolvimento como **Clean Architecture** e **Arquitetura Hexagonal**.
 
 ### Principais Conquistas
-- **Otimização de sistemas em Azure Cloud**, resultando em uma maior eficiência e redução de custos para o Banco Bradesco.
+- **Otimização de sistemas em Azure Cloud**, resultando em uma maior eficiência e redução de custos para uma **Organização na área de finanças**.
 - Implementação de **pipelines de dados em DataOps**, integrando automação com **SCRUM** para acelerar entregas.
 - Contribuição significativa para a **transformação digital** de sistemas críticos e a integração de dados em larga escala.
 

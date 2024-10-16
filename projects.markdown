@@ -10,10 +10,10 @@ Aqui estão alguns dos projetos mais significativos que desenvolvi ao longo da m
 
 ---
 
-## [Sistema de Internet Banking do Bradesco](https://github.com/jeanferreiraufu/projeto1)
+## [Sistema de Internet Banking](https://github.com/jeanferreiraufu/projeto1)
 
 - **Tecnologias Utilizadas**: Java, Spring, Azure Cloud, SQL Server
-- **Descrição**: Liderança no desenvolvimento de um sistema robusto de Internet Banking para o Bradesco, focado em segurança e escalabilidade. O sistema processa milhões de transações diariamente, oferecendo uma experiência de usuário fluida e segura.
+- **Descrição**: Liderança no desenvolvimento de um sistema robusto de Internet Banking para uma **Organização na área de finanças**, focado em segurança e escalabilidade. O sistema processa milhões de transações diariamente, oferecendo uma experiência de usuário fluida e segura.
 - **Contribuições**:
   - Arquitetura e implementação de APIs RESTful.
   - Integração com sistemas bancários legados utilizando middleware.
@@ -24,7 +24,7 @@ Aqui estão alguns dos projetos mais significativos que desenvolvi ao longo da m
 ## [Sistema de DataOps para Integração de Dados](https://github.com/jeanferreiraufu/projeto2)
 
 - **Tecnologias Utilizadas**: Python, Apache Spark, Databricks, Azure Data Lake
-- **Descrição**: Desenvolvimento de um pipeline de dados automatizado utilizando a abordagem **DataOps** para otimização e integração de grandes volumes de dados. O sistema agilizou o tempo de entrega de insights para o time de dados do Bradesco, otimizando os relatórios gerenciais.
+- **Descrição**: Desenvolvimento de um pipeline de dados automatizado utilizando a abordagem **DataOps** para otimização e integração de grandes volumes de dados. O sistema agilizou o tempo de entrega de insights para o time de dados em uma **Organização na área de finanças**, otimizando os relatórios gerenciais.
 - **Contribuições**:
   - Implementação de pipelines de ingestão de dados de várias fontes (bancos de dados, APIs, arquivos).
   - Otimização de performance no processamento de grandes volumes de dados.
@@ -35,7 +35,7 @@ Aqui estão alguns dos projetos mais significativos que desenvolvi ao longo da m
 ## [Aplicativo de Relatórios de Rendimentos](https://github.com/jeanferreiraufu/projeto3)
 
 - **Tecnologias Utilizadas**: Angular, Spring Boot, PostgreSQL, Docker
-- **Descrição**: Desenvolvimento de um sistema de relatórios de rendimentos para o Bradesco, facilitando a geração e entrega de relatórios para os clientes. O sistema reduziu o tempo necessário para a geração de relatórios em 50%.
+- **Descrição**: Desenvolvimento de um sistema de relatórios de rendimentos para uma **Organização na área de finanças**, facilitando a geração e entrega de relatórios para os clientes. O sistema reduziu o tempo necessário para a geração de relatórios em 50%.
 - **Contribuições**:
   - Desenvolvimento frontend em Angular para uma interface responsiva e amigável.
   - Implementação de APIs RESTful para gerenciamento de relatórios.
