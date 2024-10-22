@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python: Um Estudo de Caso para processamento da mídia imagem nas redes VGG_UNET e PSPNET"
+title: "Python: Um Estudo de Caso para processamento da mídia imagem na rede PSPNET"
 date: 2024-10-22 02:00:00 -0000
 categories: python1 visaocomputacional
 ---
@@ -10,11 +10,11 @@ categories: python1 visaocomputacional
 Neste post, vamos detalhar os passos executados, este estudo de caso aborda um problema específico e como ele foi resolvido utilizando Python.
 
 ## Compreendendo o Código PSPNet:
-[Código Notebook](https://github.com/jeanferreiraufu/image-segmentation/blob/main/src/notebook-u-net.ipynb)
+[Código Notebook](https://github.com/jeanferreiraufu/image-segmentation/blob/dev/jean/src/notebook-pspnet.ipynb)
 
-- Qual é a função do arquivo data_utils.py no contexto do projeto PSPNet?
+- Qual é a função da classe 'SegmentationDataset' no contexto do projeto PSPNet?
     Resp: O código contém funções utilitárias para lidar com dados, como carregamento, pré-processamento e aumento de dados para o treinamento do modelo PSPNet.
-- Descreva o propósito do arquivo inference_sample.py e como ele se relaciona com o modelo PSPNet treinado.
+- Descreva o propósito do código de inferência e como ele se relaciona com o modelo PSPNet treinado.
     O Código permite realizar inferência com um modelo PSPNet treinado. Ele carrega o modelo, processa uma imagem de entrada e gera uma previsão de segmentação semântica.
 - Explique a estrutura e funcionalidade da rede PSPNet implementada.
     O Código define a arquitetura da rede PSPNet, incluindo a estrutura principal da rede, o módulo Pyramid Pooling e as camadas de saída. Ele implementa a lógica para propagação direta e cálculo de perdas.
@@ -31,7 +31,7 @@ Neste post, vamos detalhar os passos executados, este estudo de caso aborda um p
 - Quais métricas de avaliação você usaria para medir o desempenho do modelo PSPNet?
     Métricas como precisão de pixel, Intersection over Union (IoU) e Dice coefficient são usadas para avaliar o desempenho de modelos de segmentação semântica como o PSPNet.
 - Como o código pode ser modificado para incorporar novos conjuntos de dados ou diferentes tarefas de segmentação semântica?
-    Para incorporar novos conjuntos de dados ou tarefas, o código pode ser modificado ajustando as funções de carregamento de dados, definindo novas classes de saída em psp_net.py e adaptando a lógica de treinamento em treinamento.
+    Para incorporar novos conjuntos de dados ou tarefas, o código pode ser modificado ajustando as funções de carregamento de dados, definindo novas classes de saída na rede PSPNet e adaptando a lógica de treinamento em treinamento.
 
 ## Questões para um estudo profundo. 
 - Compare e contraste a arquitetura PSPNet com outras arquiteturas de segmentação semântica, como FCN e U-Net. 
