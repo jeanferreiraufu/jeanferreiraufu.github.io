@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Python: Um Estudo de Caso para processamento da mídia imagem"
-date: 2024-10-15 17:00:00 -0000
+title: "Python: Um Estudo de Caso para processamento da mídia imagem nas redes VGG_UNET e PSPNET"
+date: 2024-10-22 02:00:00 -0000
 categories: python1 visaocomputacional
 ---
 
