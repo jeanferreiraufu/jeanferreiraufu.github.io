@@ -5,3 +5,5 @@ _site
 vendor
 .lock
 *.lock
+push.sh
+.DS_Store

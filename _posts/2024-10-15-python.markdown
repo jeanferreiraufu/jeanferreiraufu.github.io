@@ -2,7 +2,7 @@
 layout: post
 title: "Python: Um Estudo de Caso para processamento da mídia imagem"
 date: 2024-10-15 17:00:00 -0000
-categories: python1 visaocomputacional
+categories: [Machine Learning, Deep Learning, Computer Vision]
 ---
 
 ## Introdução
