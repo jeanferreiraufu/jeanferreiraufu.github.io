@@ -1,8 +1,9 @@
 # Informações básicas do site
 title: "Jean Carlo Alves Ferreira"
-description: "Analista de Sistemas Sênior | Especialista em Cloud Azure, Arquitetura de Dados e Otimização de Sistemas"
+description: "Especialista em Cloud Azure, Arquitetura de Dados e Otimização de Sistemas"
 baseurl: "" # Para GitHub Pages, deixe isso vazio.
 url: "https://jeanferreiraufu.github.io" # Atualize com o URL do seu site no GitHub Pages.
+google_scholar_stats_use_cdn : true
 
 # SEO configuration
 seo:
@@ -19,24 +20,148 @@ seo:
   email: "jeanalves.ferreira@ufu.br"
 
     
-# Tema
-theme: minima
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
-# Customizations
+# SEO Related
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+
+# Site Author
+author:
+  name             : "Jean Ferreira"
+  avatar           : "images/android-chrome-512x512.png"
+  bio              : "Senior System Analyst at Bradesco"
+  location         : "Uberlândia, MG, Brasil"
+  employer         : "Banco Bradesco S.A"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  email            : "jeanalves.ferreira@ufu.br"
+  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri              : "https://jeanferreiraufu.github.io/"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "jeanferreiraufu" # e.g., "github username"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "jean-ferrreira-udi" # e.g., "linkedin username"
+  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : # e.g., "https://orcid.org/xxxx"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _includes
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-# Links de navegação
-nav_links:
-  home: /
-  about: /about/
-  experience: /experience
-  projects: /projects
-  certifications: /certifications
-  contact: /contact
 
-# Plugins (se necessário)
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+timezone: America/Fortaleza # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins
 plugins:
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-seo-tag
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

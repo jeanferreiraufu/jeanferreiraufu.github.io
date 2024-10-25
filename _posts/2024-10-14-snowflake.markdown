@@ -2,7 +2,7 @@
 layout: post
 title: "Snowflake: Trabalhar com dados não estruturados pode ser um desafio"
 date: 2024-10-14 17:00:00 -0000
-categories: datascience snowflake 
+categories: [datascience, snowflake]  
 ---
 
 ## Introdução
