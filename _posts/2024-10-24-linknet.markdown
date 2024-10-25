@@ -30,6 +30,6 @@ categories: [Machine Learning, Deep Learning, Computer Vision]
 A arquitetura **LinkNet** se destaca por ser uma solução eficiente para segmentação semântica em cenários com restrições de recursos, mantendo alta precisão em tarefas críticas como imagens médicas e direção autônoma.
 
 **Referência de Código**
-[Segmentação U-NET](https://github.com/jeanferreiraufu/image-segmentation/blob/main/src/notebook-linknet.ipynb)
+[Segmentação U-NET](https://github.com/jeanferreiraufu/image-segmentation/blob/main/src/notebook-link-net.ipynb)
 
 Se precisar de mais alguma coisa, estou à disposição!
