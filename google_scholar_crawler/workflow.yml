@@ -1,0 +1,17 @@
+name: Google Scholar Crawler Workflow
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v2
+
+      - name: Verificar Estrutura do Diretório
+        run: ls ${{ github.workspace }}
+
+      - name: Navegar até o diretório google_scholar_crawler
+        run: cd ${{ github.workspace }}/google_scholar_crawler

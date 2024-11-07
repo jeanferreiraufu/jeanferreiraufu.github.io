@@ -1,0 +1,218 @@
+--
+layout: post
+title: "API + PHP: Um Estudo de Caso para desenvolvimento em PHP utilizando o Framework Laravel"
+date: 2024-11-07 00:48:00 -0000
+categories: [PHP, Developer, API REST]
+---
+
+# Projeto.
+**Integração com API do Sistema Nacional de NFS-e**
+
+ O projeto é uma aplicação Laravel que lida com consultas e processamento de NSU (Número
+ Sequencial Único) e arquivos XML. Aqui estão os detalhes dos Controllers, Models e Services
+ baseados nas informações fornecidas:
+
+## Requisitos
+- Certificado Digital (A1 ou A3) emitido pelo ICP-Brasil
+- Chave de acesso para autenticação OAuth 2.0 (se necessário)
+- PHP
+- MariaDB
+
+## Framework
+Laravel é um framework PHP open-source que facilita o desenvolvimento de aplicações web, oferecendo uma estrutura MVC (Model-View-Controller) e ferramentas integradas para rotas, autenticação, sessões, e manipulação de banco de dados. Ele é conhecido por sua sintaxe elegante e ferramentas de produtividade, como o Artisan CLI e o Eloquent ORM.
+
+## Controllers
+
+1. **ProcessaNsuController**
+    - **Namespace:**
+
+Controllers
+
+    - **Dependencies:**
+        - `NfseService`
+        - `DpsService`
+        - `NsuConsultaService`
+        - `EmitenteService`
+        - `TributacaoMunicipalService`
+        - `TributacaoNacionalService`
+        - `TomadorService`
+        - `PrestadorService`
+        - `ValoresService`
+    - **Methods:**
+        - `__construct`: Inicializa os serviços necessários.
+        - `processaNsu`: Processa o NSU recebido na requisição.
+
+2. **NfseController**
+    - **Namespace:**
+
+Controllers
+
+    - **Dependencies:**
+        - `XmlToJsonService`
+    - **Methods:**
+        - `__construct`: Inicializa o serviço de conversão XML para JSON.
+        - `processaArquivoXml`: Recebe um arquivo XML, converte para JSON e retorna a resposta.
+
+3. **NsuConsultaController**
+    - **Namespace:**
+
+Controllers
+
+    - **Dependencies:**
+        - `NsuConsultaService`
+    - **Methods:**
+        - `__construct`: Inicializa o serviço de consulta NSU.
+        - `index`: Lista todas as consultas NSU.
+        - `store`: Cria uma nova consulta NSU.
+
+## Models
+
+1. **Documento**
+    - **Namespace:**
+
+Models
+
+    - **Descrição:** Representa um documento no sistema.
+
+## Services
+
+1. **NfseService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado à NFSe (Nota Fiscal de Serviço Eletrônica).
+
+2. **DpsService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado ao DPS (Documento de Prestação de Serviço).
+
+3. **NsuConsultaService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço para consultas de NSU.
+
+4. **EmitenteService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado ao emitente.
+
+5. **TributacaoMunicipalService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado à tributação municipal.
+
+6. **TributacaoNacionalService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado à tributação nacional.
+
+7. **TomadorService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado ao tomador.
+
+8. **PrestadorService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado ao prestador.
+
+9. **ValoresService**
+    - **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço relacionado aos valores.
+
+10. **XmlToJsonService**
+    -   **Namespace:**
+
+Services
+
+    - **Descrição:** Serviço para converter XML para JSON.
+
+### Estrutura do Projeto
+
+O projeto possui a seguinte estrutura de diretórios e arquivos principais:
+
+-   **app/**
+    -   **Http/**
+        -   **Controllers/**: Contém os controladores da aplicação.
+    -   **Models/**: Contém os modelos da aplicação.
+    -   **Services/**: Contém os serviços da aplicação.
+-   **bootstrap/**: Contém arquivos de inicialização.
+-   **config/**: Contém arquivos de configuração.
+-   **database/**: Contém arquivos relacionados ao banco de dados.
+-   **public/**: Contém arquivos públicos acessíveis via web.
+-   **resources/**: Contém recursos como views e assets.
+-   **routes/**: Contém arquivos de rotas.
+-   **storage/**: Contém arquivos de armazenamento.
+-   **tests/**: Contém testes unitários e de funcionalidade.
+-   **vendor/**: Contém dependências do Composer.
+
+### Rotas
+
+As rotas são definidas em
+
+web.php
+
+e incluem:
+
+-   Rota raiz (`/`) que retorna a view `welcome`.
+-   Recurso `consulta-nsu` que utiliza o `NsuConsultaController`.
+-   Rotas para `processa-nsu` que utilizam o `ProcessaNsuController`.
+-   Rotas para `processa-arquivo-xml` que utilizam o `NfseController`.
+
+## Instalação
+
+Siga os passos abaixo para configurar o ambiente de desenvolvimento:
+
+1. Navegue até o diretório do projeto:
+    ```sh
+    cd seu-repositorio
+    ```
+2. Instale as dependências do Composer:
+    ```sh
+    composer install
+    ```
+3. Copie o arquivo `.env.example` para `.env` e configure suas variáveis de ambiente:
+    ```sh
+    cp .env.example .env
+    ```
+4. Gere a chave da aplicação:
+    ```sh
+    php artisan key:generate
+    ```
+
+## Subir o Projeto
+
+Para subir o projeto, execute os seguintes comandos:
+
+1. Execute as migrações do banco de dados:
+    ```sh
+    php artisan migrate
+    ```
+2. Inicie o servidor de desenvolvimento:
+    ```sh
+    php artisan serve
+    ```
+
+# Referência de Código
+Repositório Privado.
+
+Se precisar de mais alguma coisa, estou à disposição!
