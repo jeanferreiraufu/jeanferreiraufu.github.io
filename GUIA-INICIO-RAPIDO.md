@@ -61,7 +61,7 @@ date: 2025-01-01 10:00:00 -0300
 categories: [projeto, tecnologia-principal]
 tags: [projeto, python, azure, docker]
 excerpt: "Descrição breve do projeto"
-author: "Jean Carlo Alves Ferreira"
+author: "Jean C. A. Ferreira"
 
 # Metadados do projeto
 technologies: ["Python", "Azure", "Docker", "React"]

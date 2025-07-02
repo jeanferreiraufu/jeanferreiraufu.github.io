@@ -5,7 +5,7 @@ date: 2025-01-01 10:00:00 -0300
 categories: [projeto, azure, big-data]
 tags: [projeto, azure, python, spark, machine-learning]
 excerpt: "Sistema completo para análise de dados em tempo real utilizando Azure Event Hubs, Azure Stream Analytics e Power BI para visualização de insights em tempo real."
-author: "Jean Carlo Alves Ferreira"
+author: "Jean C. A. Ferreira"
 
 # Metadados do projeto
 technologies: ["Azure", "Python", "Apache Spark", "Power BI", "Docker", "Kubernetes"]
@@ -216,7 +216,7 @@ ML_CONFIG = {
 
 ## 🤝 Colaboradores
 
-- **Jean Carlo Alves Ferreira** - Arquiteto da Solução e Lead Developer
+- **Jean C. A. Ferreira** - Arquiteto da Solução e Lead Developer
 - **Maria Silva** - Data Scientist
 - **João Santos** - DevOps Engineer
 - **Ana Costa** - UX/UI Designer
@@ -257,4 +257,4 @@ Para dúvidas sobre este projeto:
 
 ---
 
-**Desenvolvido com ❤️ por Jean Carlo Alves Ferreira**
+**Desenvolvido com ❤️ por Jean C. A. Ferreira**

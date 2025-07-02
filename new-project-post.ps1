@@ -39,7 +39,7 @@ date: $DateTime
 categories: [projeto]
 tags: [projeto]
 excerpt: "$ProjectDescription"
-author: "Jean Carlo Alves Ferreira"
+author: "Jean Ferreira"
 
 # Metadados do projeto (edite conforme necessário)
 technologies: ["Python", "Azure", "Docker"]
@@ -164,7 +164,7 @@ configuracao:
 
 ## 🤝 Colaboradores
 
-- **Jean Carlo Alves Ferreira** - Desenvolvedor Principal
+- **Jean Ferreira** - Desenvolvedor Principal
 - **Nome do Colaborador** - Função (se aplicável)
 
 ## 📚 Aprendizados e Desafios
@@ -199,7 +199,7 @@ Para dúvidas sobre este projeto:
 
 ---
 
-**Desenvolvido com ❤️ por Jean Carlo Alves Ferreira**
+**Desenvolvido com ❤️ por Jean C. A. Ferreira**
 "@
 
 # Criar o arquivo

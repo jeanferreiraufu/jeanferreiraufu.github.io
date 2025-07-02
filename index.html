@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Jean Carlo Alves Ferreira"
+title: "Jean C. A. Ferreira"
 excerpt: "Desenvolvedor Full Stack | Especialista em Cloud Azure, Arquitetura de Dados e Otimização de Sistemas"
 author_profile: true
 ---
@@ -10,7 +10,7 @@ author_profile: true
 {% endif %}
 <div class="hero-section">
   <div class="hero-content">
-    <h1>Jean Carlo Alves Ferreira</h1>
+    <h1>Jean Ferreira</h1>
     <p class="hero-subtitle">Analista de Sistemas Sênior | Especialista em Cloud Azure e Arquitetura de Dados</p>
     <p class="hero-description">
       Desenvolvedor Full Stack com mais de 15 anos de experiência em transformação digital, 
@@ -57,7 +57,16 @@ author_profile: true
     </div>
     
     <div class="projects-preview">
-      {% assign recent_projects = site.posts | where_exp: "post", "post.categories contains 'projeto' or post.tags contains 'projeto'" | sort: 'date' | reverse | limit: 3 %}
+      {% assign all_posts = site.posts | sort: 'date' | reverse %}
+      {% assign recent_projects = "" | split: "" %}
+      {% for post in all_posts limit: 10 %}
+        {% if post.categories contains 'projeto' or post.tags contains 'projeto' %}
+          {% assign recent_projects = recent_projects | push: post %}
+          {% if recent_projects.size >= 3 %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
       {% for post in recent_projects %}
       <div class="project-card">
         <div class="project-header">

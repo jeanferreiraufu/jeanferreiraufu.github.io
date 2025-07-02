@@ -1,8 +1,9 @@
 # Informações básicas do site
-title: "Jean Carlo Alves Ferreira"
+title: "Jean C. A. Ferreira"
 description: "Desenvolvedor Full Stack | Especialista em Cloud Azure, Arquitetura de Dados e Otimização de Sistemas"
 baseurl: "" # Para GitHub Pages, deixe isso vazio.
 url: "https://jeanferreiraufu.github.io" # Atualize com o URL do seu site no GitHub Pages.
+repository: "jeanferreiraufu/jeanferreiraufu.github.io"
 google_scholar_stats_use_cdn : true
 
 # Configurações para projetos
@@ -17,9 +18,9 @@ paginate_path: "/page:num/"
 
 # SEO configuration
 seo:
-  title: "Jean Carlo | Analista de Sistemas Sênior"
+  title: "Analista de Sistemas Sênior"
   description: "Especialista em desenvolvimento de software, cloud computing e otimização de sistemas. Certificado em Azure, Scrum Master e PMP."
-  author: "Jean Carlo Alves Ferreira"
+  author: "Jean C. A. Ferreira"
   twitter:
     username: "jeanalvesferreira"
   github:

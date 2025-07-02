@@ -1,10 +1,10 @@
-# 🌐 Jean Carlo Alves Ferreira - Portfolio Pessoal
+# 🌐 Jean C. A. Ferreira - Portfolio Pessoal
 
 [![Jekyll](https://img.shields.io/badge/Jekyll-4.3.4-red?logo=jekyll)](https://jekyllrb.com/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green?logo=github)](https://pages.github.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Portfolio pessoal e blog técnico de **Jean Carlo Alves Ferreira**, Analista de Sistemas Sênior especializado em Cloud Azure, Arquitetura de Dados e desenvolvimento Full Stack.
+Portfolio pessoal e blog técnico de **Jean C. A. Ferreira**, Analista de Sistemas Sênior especializado em Cloud Azure, Arquitetura de Dados e desenvolvimento Full Stack.
 
 🔗 **Site**: [https://jeanferreiraufu.github.io](https://jeanferreiraufu.github.io)
 
@@ -128,7 +128,7 @@ bundle exec jekyll build
 
 ## 📞 Contato
 
-**Jean Carlo Alves Ferreira**
+**Jean C. A. Ferreira**
 
 - 📧 Email: jeanalves.ferreira@ufu.br
 - 💼 LinkedIn: [jean-ferrreira-udi](https://www.linkedin.com/in/jean-ferrreira-udi)

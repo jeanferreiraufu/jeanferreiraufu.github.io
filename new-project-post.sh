@@ -33,7 +33,7 @@ date: $(date +"%Y-%m-%d %H:%M:%S %z")
 categories: [projeto]
 tags: [projeto]
 excerpt: "$PROJECT_DESCRIPTION"
-author: "Jean Carlo Alves Ferreira"
+author: "Jean C. A. Ferreira"
 
 # Metadados do projeto (edite conforme necessário)
 technologies: ["Python", "Azure", "Docker"]
@@ -158,7 +158,7 @@ configuracao:
 
 ## 🤝 Colaboradores
 
-- **Jean Carlo Alves Ferreira** - Desenvolvedor Principal
+- **Jean C. A. Ferreira** - Desenvolvedor Principal
 - **Nome do Colaborador** - Função (se aplicável)
 
 ## 📚 Aprendizados e Desafios
@@ -193,7 +193,7 @@ Para dúvidas sobre este projeto:
 
 ---
 
-**Desenvolvido com ❤️ por Jean Carlo Alves Ferreira**
+**Desenvolvido com ❤️ por Jean C. A. Ferreira**
 EOF
 
 echo "✅ Post criado com sucesso: $FILE_PATH"
