@@ -1,47 +1,139 @@
-# Meu Perfil Pessoal
+# 🌐 Jean Carlo Alves Ferreira - Portfolio Pessoal
 
-Um blog pessoal que possa ser facilmente vinculado ao seu perfil no LinkedIn, GitHub e outros sites é uma ótima maneira de fortalecer sua marca pessoal e destacar suas habilidades e projetos. Aqui estão algumas dicas sobre como começar.
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.4-red?logo=jekyll)](https://jekyllrb.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green?logo=github)](https://pages.github.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-GitHub Pages: Você pode criar um blog diretamente no GitHub usando o GitHub Pages, que é uma maneira gratuita de hospedar conteúdo estático. Com suporte ao Jekyll, você pode construir sites e blogs personalizados, aproveitando sua experiência com Git e Markdown
+Portfolio pessoal e blog técnico de **Jean Carlo Alves Ferreira**, Analista de Sistemas Sênior especializado em Cloud Azure, Arquitetura de Dados e desenvolvimento Full Stack.
 
-## Requisitos
+🔗 **Site**: [https://jeanferreiraufu.github.io](https://jeanferreiraufu.github.io)
 
-- Ruby versão `x.x.x`
-- Bundler versão `x.x.x`
-- Jekyll versão `x.x.x`
+## 📋 Sobre o Projeto
 
-## Estrutura do Projeto
+Este site foi desenvolvido com Jekyll e hospedado no GitHub Pages, servindo como:
 
-```plaintext
-[_config.yml](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5C_config.yml%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2F_config.yml%22%2C%22scheme%22%3A%22file%22%7D%7D)
-_pages/
-_posts/
-_site/
-.gitignore
-.jekyll-cache/
-[404.html](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5C404.html%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2F404.html%22%2C%22scheme%22%3A%22file%22%7D%7D)
-[about.markdown](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5Cabout.markdown%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2Fabout.markdown%22%2C%22scheme%22%3A%22file%22%7D%7D)
-[certifications.markdown](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5Ccertifications.markdown%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2Fcertifications.markdown%22%2C%22scheme%22%3A%22file%22%7D%7D)
-[contact.markdown](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5Ccontact.markdown%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2Fcontact.markdown%22%2C%22scheme%22%3A%22file%22%7D%7D)
-[experience.markdown](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5Cexperience.markdown%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2Fexperience.markdown%22%2C%22scheme%22%3A%22file%22%7D%7D)
-Gemfile
-[Gemfile.lock](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5CGemfile.lock%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2FGemfile.lock%22%2C%22scheme%22%3A%22file%22%7D%7D)
-[index.markdown](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5Cindex.markdown%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2Findex.markdown%22%2C%22scheme%22%3A%22file%22%7D%7D)
-[projects.markdown](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5Cprojects.markdown%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2Fprojects.markdown%22%2C%22scheme%22%3A%22file%22%7D%7D)
-[README.md](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5Cgit%5C%5Cgithub.io%5C%5CREADME.md%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2Fgit%2Fgithub.io%2FREADME.md%22%2C%22scheme%22%3A%22file%22%7D%7D)
+- **Portfolio profissional** com projetos desenvolvidos
+- **Blog técnico** com artigos sobre tecnologia
+- **Página de apresentação** profissional
+- **Central de contato** e networking
+
+### 🎯 Funcionalidades
+
+- ✅ Página inicial responsiva com destaque para projetos
+- ✅ Seção dedicada de projetos com filtros e categorias
+- ✅ Blog com artigos técnicos
+- ✅ Página de contato com informações profissionais
+- ✅ Design moderno e mobile-first
+- ✅ SEO otimizado
+- ✅ Performance otimizada
+
+## 🚀 Como Executar Localmente
+
+### Pré-requisitos
+
+- Ruby 2.7+ e Bundler
+- Git
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/jeanferreiraufu/jeanferreiraufu.github.io.git
+cd jeanferreiraufu.github.io
+
+# Instale as dependências
+bundle install
+
+# Execute o servidor local
+bundle exec jekyll serve
+
+# Acesse http://localhost:4000
 ```
 
-##  Conteúdo Focado e Estratégico
-No blog, você pode compartilhar suas experiências profissionais, projetos de código, soluções para problemas complexos que você enfrentou e estudos de caso. Isso demonstra suas habilidades e conhecimento técnico.
-Para conectar ao seu LinkedIn e GitHub, destaque seu blog no seu perfil, na seção "Sobre" e "Experiências". Adicione links diretos para posts relevantes relacionados às suas competências técnicas.
-No GitHub, você pode incluir o blog como parte do seu portfólio de projetos e incluir links para seu blog nos repositórios relevantes.
+### Configuração de Desenvolvimento
 
-##  Integração com GitHub e LinkedIn
-No LinkedIn: Adicione seu blog como um projeto na seção "Projetos" ou inclua links em posts de atualização e no seu resumo profissional​.
+```bash
+# Para desenvolvimento com livereload
+bundle exec jekyll serve --livereload
 
-No GitHub: Adicione um link direto ao seu blog na bio do GitHub, ou crie repositórios específicos com conteúdo do blog, como tutoriais e exemplos de código​.
-​
-## SEO e Divulgação
-Use SEO (Search Engine Optimization) para aumentar a visibilidade do seu blog em mecanismos de busca. Isso ajuda a atrair mais visitantes ao blog, incluindo recrutadores.
-Divulgue cada novo post nas redes sociais e em fóruns técnicos, como LinkedIn e Stack Overflow. Isso aumenta o tráfego para seu blog e demonstra sua participação ativa na comunidade.
-Seguindo essas etapas, você pode criar um blog pessoal que será uma poderosa ferramenta para fortalecer sua marca e conectar seus perfis profissionais com conteúdo que mostra suas habilidades em profundidade.
+# Para gerar o site para produção
+bundle exec jekyll build
+```
+
+## 📝 Como Criar Novos Posts
+
+### Método 1: Script Automático (Recomendado)
+
+**Windows (PowerShell):**
+```powershell
+.\new-project-post.ps1 "Nome do Projeto" "Descrição breve do projeto"
+```
+
+**Linux/Mac (Bash):**
+```bash
+./new-project-post.sh "Nome do Projeto" "Descrição breve do projeto"
+```
+
+### Método 2: Manual
+
+1. Crie um arquivo em `_posts/` com o formato: `YYYY-MM-DD-titulo-do-post.markdown`
+2. Use o template fornecido nos scripts
+
+### Tipos de Posts
+
+#### Posts de Projetos
+- Use a categoria `projeto`
+- Inclua metadados como tecnologias, GitHub, demo
+- Adicione seções: Visão Geral, Tecnologias, Resultados, Como Executar
+
+#### Posts de Blog/Artigos
+- Use categorias técnicas relevantes
+- Foque no conteúdo educativo
+- Inclua exemplos de código quando aplicável
+
+## 🗂️ Estrutura do Projeto
+
+```
+.
+├── _config.yml          # Configurações do Jekyll
+├── _includes/           # Componentes reutilizáveis
+│   ├── analytics.html
+│   ├── author-profile.html
+│   ├── head.html
+│   ├── masthead.html
+│   └── ...
+├── _layouts/            # Templates de páginas
+│   ├── default.html
+│   ├── home.html
+│   ├── page.html
+│   └── post.html
+├── _posts/              # Posts do blog e projetos
+├── _sass/               # Estilos SCSS
+├── _site/               # Site gerado (ignorado no git)
+├── assets/              # CSS, JS, fontes e imagens
+│   ├── css/
+│   ├── fonts/
+│   └── js/
+├── images/              # Imagens do site
+├── google_scholar_crawler/ # Scripts do Google Scholar
+├── .github/             # Configurações do GitHub
+├── 404.html             # Página de erro 404
+├── index.html           # Página inicial
+├── Gemfile              # Dependências Ruby
+├── new-project-post.ps1 # Script para criar posts (Windows)
+├── new-project-post.sh  # Script para criar posts (Linux/Mac)
+├── GUIA-INICIO-RAPIDO.md # Guia de uso do projeto
+└── README.md           # Este arquivo
+```
+
+## 📞 Contato
+
+**Jean Carlo Alves Ferreira**
+
+- 📧 Email: jeanalves.ferreira@ufu.br
+- 💼 LinkedIn: [jean-ferrreira-udi](https://www.linkedin.com/in/jean-ferrreira-udi)
+- 🐙 GitHub: [jeanferreiraufu](https://github.com/jeanferreiraufu)
+- 🌐 Website: [jean-ferreira-website.web.app](https://jean-ferreira-website.web.app/)
+- 🌐 github.io: [jeanferreiraufu.github.io](https://jeanferreiraufu.github.io)
+
+---

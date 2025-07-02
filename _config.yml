@@ -1,9 +1,19 @@
 # Informações básicas do site
 title: "Jean Carlo Alves Ferreira"
-description: "Especialista em Cloud Azure, Arquitetura de Dados e Otimização de Sistemas"
+description: "Desenvolvedor Full Stack | Especialista em Cloud Azure, Arquitetura de Dados e Otimização de Sistemas"
 baseurl: "" # Para GitHub Pages, deixe isso vazio.
 url: "https://jeanferreiraufu.github.io" # Atualize com o URL do seu site no GitHub Pages.
 google_scholar_stats_use_cdn : true
+
+# Configurações para projetos
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Configurações de paginação para posts
+paginate: 6
+paginate_path: "/page:num/"
 
 # SEO configuration
 seo:
@@ -39,7 +49,7 @@ author:
   googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "jeanalves.ferreira@ufu.br"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://jeanferreiraufu.github.io/"
+  uri              : "https://jean-ferreira-website.web.app/"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -136,6 +146,27 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
 
 
 # Sass/SCSS
@@ -152,11 +183,13 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-paginate
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-paginate
   - jemoji
 
 # HTML Compression
