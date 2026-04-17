@@ -14,7 +14,7 @@
 
 ## RESUMO PROFISSIONAL
 
-**Analista de Sistemas Sênior & Especialista em Cloud com 15+ anos de experiência** na condução da transformação digital e otimização de sistemas críticos em ambientes de alto volume, incluindo projetos estratégicos no Banco Bradesco.
+**Engenheiro de Software Sênior & Especialista em Cloud com 15+ anos de experiência** na condução da transformação digital e otimização de sistemas críticos em ambientes de alto volume, incluindo projetos estratégicos no Banco Bradesco.
 
 **Minha expertise é a ponte entre Engenharia de Software de ponta e Arquitetura de Dados**, com foco em soluções Cloud Native (Azure, AWS, GCP) e escalabilidade. Especialista em desenvolvimento Full Stack com forte conhecimento em Python, Java e tecnologias emergentes de IA/ML.
 
@@ -25,35 +25,45 @@
 - **Transformação Digital:** Experiência comprovada em modernização de sistemas legados e implementação de arquiteturas modernas em instituições financeiras
 
 ---
+## Posicionamento de Mercado
 
-## HABILIDADES TÉCNICAS
+- Lideranca tecnica com perfil hands-on: combina estrategia, arquitetura e execucao.
+- Forte capacidade de traducao entre negocio e tecnologia para acelerar decisao e entrega.
+- Atuacao orientada a impacto: performance, confiabilidade, custo e experiencia do cliente.
+- Experiencia comprovada em ambientes regulados, criticos e de alto volume transacional.
 
-### **Linguagens de Programação:**
-Python (Expert), Java (8, 11, 17+), JavaScript, PHP, Kotlin, SQL, NOSQL
+---
+## Competencias-Chave
 
-### **Frameworks & Bibliotecas:**
-Spring Boot, Spring Security, Spring Cloud, Django, Flask, React, TensorFlow, PyTorch, OpenCV, Hibernate/JPA
+### Lideranca e Gestao
 
-### **Cloud & DevOps:**
-Microsoft Azure (Certified), AWS, Google Cloud Platform, Docker, Kubernetes, CI/CD, Git, Azure Event Hubs, Azure Stream Analytics
+- Gestao de pessoas e lideranca tecnica de squads.
+- Conducao de projetos end-to-end, do discovery a operacao.
+- Comunicacao executiva e alinhamento entre stakeholders de negocio e tecnologia.
+- Metodologias ageis: Scrum e Kanban.
+- Cultura de qualidade, monitoramento e observabilidade.
 
-### **Bancos de Dados:**
-PostgreSQL, MySQL, MongoDB, Redis, Snowflake, SQL Server, Performance Tuning, Data Warehousing
+### Engenharia e Arquitetura
 
-### **Arquitetura & Metodologias:**
-Clean Architecture, Microservices, Hexagonal Architecture, Event-Driven Architecture, Agile/Scrum, TDD, DDD
+- System Design para alta escalabilidade, alta concorrencia e baixa latencia.
+- Arquitetura de Software: Microservices, Event-Driven, Clean Architecture, Hexagonal, DDD.
+- Backend: Java (8-21+), Spring Ecosystem, Python.
+- Frontend: React, Angular, JavaScript moderno.
+- DevOps: CI/CD, Docker, Kubernetes.
 
-### **Data Science & AI:**
-Machine Learning, Deep Learning, Computer Vision, Data Pipeline, ETL, Power BI, Jupyter Notebook, Pandas, NumPy
+### Cloud, Dados e Integracao
 
-### **Especializações:**
-Segmentação Semântica (PSPNet, LinkNet, VGG_UNET), Real-time Analytics, Big Data Processing
+- Cloud: Azure (especialista), AWS, GCP.
+- Data Engineering: ETL, pipelines distribuidos, streaming de dados.
+- Mensageria: Kafka, Event Hubs.
+- Bancos de Dados: SQL Server, PostgreSQL, MongoDB, Redis, Snowflake.
+- IA aplicada: Machine Learning, Computer Vision e pipelines de dados.
 
 ---
 
 ## EXPERIÊNCIA PROFISSIONAL
 
-### **BANCO BRADESCO S.A** | Analista de Sistemas Sênior | Jan 2018 - Atual
+### **BANCO BRADESCO S.A** | Engenheiro de Software Sênior | Jan 2018 - Atual
 *Uberlândia - MG | Uma das maiores instituições financeiras do Brasil*
 
 • **Lidero a transformação digital** de sistemas críticos bancários, implementando arquiteturas modernas que suportam milhões de transações diárias
@@ -84,7 +94,7 @@ Segmentação Semântica (PSPNet, LinkNet, VGG_UNET), Real-time Analytics, Big D
 
 ## FORMAÇÃO ACADÊMICA
 
-### **Mestrado em Ciência da Computação** | Universidade Federal de Uberlândia (UFU) | 2024-Em andamento
+### **Mestrado em Ciência da Computação** | Universidade Federal de Uberlândia (UFU) | 2026-Em andamento
 *Especialização em Data Science, Machine Learning e Processamento de Imagens*
 
 ### **Pós-graduação em Banco de Dados** | Centro Universitário do Triângulo (UNITRI) | 2012-2012
@@ -103,26 +113,36 @@ Segmentação Semântica (PSPNet, LinkNet, VGG_UNET), Real-time Analytics, Big D
 
 ---
 
-## PROJETOS EM DESTAQUE
+## PROJETOS CORPORATIVOS EM DESTAQUE
 
-### **App e WhatsApp Bradesco - Plataforma de Atendimento de CHAT em Tempo Real - Azure + MicroServices Java** | 2025
+### **Change The Bank | Plataforma de Atendimento Digital via CHAT em Tempo Real** | 2025 e 2026
+Lideranca tecnica da plataforma de comunicacao digital omnichannel.
 Solução de CHAT completa utilizando Azure Kafka, Azure SQL, Azure Blob Storage, Akamai, Axway API Gateway, Backend MicroServices, Inteligência Artificial, Genesys Cloud, Pure Social e Sales Force. 
+**Stack:** Java, Spring, Azure, Kafka, SQL Server, Kubernetes, API Gateway, CI/CD, Genesys Cloud, Salesforce, OpenAI, Meta.
+**Destaques:**
+- Plataforma de chat em tempo real para App PF, PJ e Net Empresa.
+- Integracao com WhatsApp (BIA) e canais digitais.
+- Implementacao de IA generativa para atendimento automatizado.
+- Arquitetura escalavel com microsservicos e mensageria.
+- Orquestracao de dados com Azure Data Factory e Blob Storage.
 
+### **Campanhas Cartões Bradesco - Plataforma de Processamento com MicroServices Java** | 2023 e 2024
+Pelo app ou internet banking, Suas Compras Valem Mais é uma campanha onde o cliente ganha mais prêmios conforme gastos das transações de cartões de crédito. 
+Atuei como FullStack (Java + Angular), MicroServices MVC, Banco de Dados SQL Server, Spring Framework e Spring Batch para processamento ETL de arquivos. 
+[Gaste Ganhe](https://banco.bradesco/html/classic/promocoes/gaste-ganhe/) 
+
+### **Informe Rendimentos Bradesco - Plataforma de Processamento com MicroServices Java** | 2021 e 2022
+Pelo app ou internet banking, você tem acesso aos informes dos últimos 5 anos e pode juntar todos em um só arquivo. 
+Atuei como FullStack (Java + Angular), MicroServices MVC, Banco de Dados SQL Server, Spring Framework e Spring Batch para processamento ETL de arquivos. 
+[Informe de Rendimentos](https://banco.bradesco/imposto-renda/index.shtm) 
+
+
+## PROJETOS PESSOAIS E PESQUISA
 ### **Video Maker - Processador e Gerador de Vídeos** | 2025  
 Suite completa de ferramentas Python para processamento automatizado de mídia utilizando OpenCV e FFmpeg
 
 ### **Redes Neurais para Segmentação Semântica** | 2024
 Implementação e otimização de arquiteturas PSPNet, LinkNet e VGG_UNET para processamento de imagens
-
-### **Campanhas Cartões Bradesco - Plataforma de Processamento com MicroServices Java** | 2023
-Pelo app ou internet banking, Suas Compras Valem Mais é uma campanha onde o cliente ganha mais prêmios conforme gastos das transações de cartões de crédito. 
-Atuei como FullStack (Java + Angular), MicroServices MVC, Banco de Dados SQL Server, Spring Framework e Spring Batch para processamento ETL de arquivos. 
-[Gaste Ganhe](https://banco.bradesco/html/classic/promocoes/gaste-ganhe/) 
-
-### **Informe Rendimentos Bradesco - Plataforma de Processamento com MicroServices Java** | 2021
-Pelo app ou internet banking, você tem acesso aos informes dos últimos 5 anos e pode juntar todos em um só arquivo. 
-Atuei como FullStack (Java + Angular), MicroServices MVC, Banco de Dados SQL Server, Spring Framework e Spring Batch para processamento ETL de arquivos. 
-[Informe de Rendimentos](https://banco.bradesco/imposto-renda/index.shtm) 
 
 ---
 
@@ -130,6 +150,26 @@ Atuei como FullStack (Java + Angular), MicroServices MVC, Banco de Dados SQL Ser
 
 **Português:** Nativo  
 **Inglês:** Intermediário (Leitura, Escrita, Conversação Técnica)
+
+---
+
+## Competencias Comportamentais
+
+- Transparencia.
+- Organizacao.
+- Iniciativa.
+- Inovacao.
+- Adaptacao.
+
+---
+
+## Diferenciais Competitivos
+
+- Forte atuacao como Tech Lead hands-on.
+- Capacidade de transformar requisitos de negocio em arquitetura escalavel.
+- Experiencia real em sistemas criticos de alta concorrencia.
+- Mindset orientado a metricas de performance, custo e eficiencia.
+- Integracao efetiva entre Software Engineering, Data e IA.
 
 ---
 
@@ -141,4 +181,4 @@ Projetos Pessoais: https://jeanferreiraufu.github.io/
 
 ---
 
-*Currículo atualizado em Setembro 2025*
+*Currículo atualizado em Abril 2026*

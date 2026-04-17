@@ -18,7 +18,7 @@ paginate_path: "/page:num/"
 
 # SEO configuration
 seo:
-  title: "Analista de Sistemas Sênior"
+  title: "Engenheiro de Software Sênior"
   description: "Especialista em desenvolvimento de software, cloud computing e otimização de sistemas. Certificado em Azure, Scrum Master e PMP."
   author: "Jean C. A. Ferreira"
   twitter:

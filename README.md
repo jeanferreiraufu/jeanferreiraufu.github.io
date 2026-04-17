@@ -4,7 +4,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green?logo=github)](https://pages.github.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Portfolio pessoal e blog técnico de **Jean C. A. Ferreira**, Analista de Sistemas Sênior especializado em Cloud Azure, Arquitetura de Dados e desenvolvimento Full Stack.
+Portfolio pessoal e blog técnico de **Jean C. A. Ferreira**, Engenheiro de Software Sênior especializado em Cloud Azure, Arquitetura de Dados e desenvolvimento Full Stack.
 
 🔗 **Site**: [https://jeanferreiraufu.github.io](https://jeanferreiraufu.github.io)
 
